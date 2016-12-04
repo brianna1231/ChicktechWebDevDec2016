@@ -1,0 +1,107 @@
+<head>
+    <title> Favorites</title>
+    <style type="text/css">
+
+    </style>
+    <script type="text/javascript" src="js/favorites.js"></script>
+</head>
+
+<body>
+    <div id="page">
+        <div id="navagation">
+            <header>
+                <h1>Favorites</h1>
+            </header>
+            <nav>
+
+                <ul>
+                    <li>
+                        <a href="index.html">About ME</a>
+                    </li>
+                    <li class="active">
+                        <a href="favorites.html">Favorites</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="controls">
+            <header>
+                <h2>controls</h2>
+            </header>
+
+            <section class="control">
+                <header>
+                    <h3>New Favorite</h3>
+                </header>
+
+                <form action="javascript:createFavorite();" id="creator">
+
+                    <fieldset>
+                        <label>Title</label>
+                        <input id="creator-title" type="text" />
+                    </fieldset>
+                    <fieldset>
+                        <label>Description</label>
+                        <div>
+                            <textarea id="creator-description" rows="5"></textarea>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <label>Image</label>
+                        <input id="creator-media" type="text" />
+                    </fieldset>
+                    <fieldset>
+                        <button>Creator</button>
+                    </fieldset>
+
+                </form>
+            </section>
+        </div>
+
+        <div id="content">
+
+            <header>
+                <h2>Favorites</h2>
+
+            </header>
+
+            <!--<article class="favorites">-->
+
+            <!--</article>-->
+
+
+            <article class="favorites">
+
+                <header>
+                    <h3 class="title">Make It Rain!!!! </h3>
+                </header>
+
+                 <div class="media">
+
+                <iframe src="//giphy.com/embed/xTk9ZLRMhW9wrSUf4c" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <p><a href="https://giphy.com/gifs/christmas-xmas-santa-claus-xTk9ZLRMhW9wrSUf4c">via GIPHY</a></p>
+            </div>
+
+            <p class="description">
+                I love this thing soooo much.
+            </p>
+
+            </article>
+
+           
+            <article class="favorites">
+                <header>
+                    <h4 class="title">YASSS</h4>
+                </header>
+                <div class="media">
+
+                    <iframe src="//giphy.com/embed/pitbceIIl9gtO" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                    <p><a href="https://giphy.com/gifs/pizza-timer-pitbceIIl9gtO">via GIPHY</a></p>
+                </div>
+
+                <p class="description">MY LIFE SUMMED UP IN ONE IMAGE</p>
+            </article>
+        </div>
+    </div>
+  
+</body>

@@ -1,0 +1,131 @@
+<head>
+    <script src="js/mailer.js" type="text/javascript"></script>
+    <style type="text/css">
+    body {
+        background-color:#311B92;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color:#F3E5F5;
+    }
+    h2 {
+        font-size: Larger;
+        background-color: #B39DDB;
+        
+    }
+   
+   section {
+       max-width: 50ch;
+       background-color: #673AB7
+   }
+   
+   section:hover {
+      
+   }
+   header {
+       background-color: #512DA8;
+   }
+   p {
+       background-color: #673AB7;
+   }
+   h3 {
+       background-color: #B39DDB;
+   }
+  
+    </style>
+    
+</head>    
+<body style="font-family: Helvetica;">
+     <div id="navagation">
+            <nav>
+
+                <ul>
+                    <li>
+                        <a href="index.html">About ME</a>
+                    </li>
+                    <li class="active">
+                        <a href="favorites.html">Favorites</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    
+    <header>
+        <h2>About ME</h2>
+    </header>
+    <p>My name is Brianna, but people call me Bri for short.</p>
+    <section style="background-color: ">
+        </section>
+        <header>
+            <h2> Bio</h2>
+            <section style= "background- color:#00B8D4"
+        </header>
+        
+        <p> Brianna was born in Bronx, NY on September 1st,2000. She's currently finishing High school and planing what is she going to do next. She likes to listen to piano music depending on her mood. She also owns a cat, but she wishes she had a dog.</p>
+    </section>
+
+    <section>
+        <header>
+            <h2> Favorites</h2>
+        </header>
+        <p>These are some of my favorite things</p>
+        <section>
+            <header>
+                <h2> Favorite Movies</h2>
+            </header>
+            <ul>
+                <li>The Collector</li>
+                <li>Most Likely to Die</li>
+                <li>All SAW movies</li>
+                <li>Evil Dead</li>
+            </ul>
+            <section>
+                <header>
+                    <h2> Favorite books</h2>
+                </header>
+                <ul>
+                    <li>Dutch</li>
+                    <li> The Maximum Ride series</li>
+                    <li>True to the Game</li>
+                    <li> Crack</li>
+                    <li>Duff</li>
+                </ul>
+            </section>
+            <header></header>
+        </section>
+    </section>
+
+
+
+
+    <section>
+        <header>
+            <h2> Least Favorites</h2>
+        </header>
+        <p> These are some of my least favorite things</p>
+        <section>
+            <header>
+                <h3> Subjects in school</h3>
+                <ul>
+                    <li>English</li>
+                    <li>Earth Science</li>
+                    <li>Geometry</li>
+                    <li>U.S History</li>
+                </ul>
+            </header>
+        </section>
+    </section>
+    <section>
+     
+        <header>
+            <h2>contact</h2>
+        </header>
+        <textarea style="width:100%;" id="message">
+        </textarea>
+        <button onclick="mailer.send(document.getElementById('message').value)">send</button>
+    </section>
+        
+</body>
+
+
